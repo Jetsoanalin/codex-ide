@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://sfitengg.org/codex/index.html" rel="noopener">
- <img width=50% src="../assets/icon.png" alt="Code-X-logo"></a>
+ <img width=50% src="./assets/icon.png" alt="Code-X-logo"></a>
 </p>
 
 <h3 align="center">Your X-Factor Text editor</h3>
