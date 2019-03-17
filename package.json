@@ -1,0 +1,67 @@
+{
+  "name": "Code-X",
+  "version": "1.0.0",
+  "description": "Your X-Factor Text editor",
+  "author": "Jetso Analin <jetyjetso@gmail.com>, Rutvik Kakadiya <kakadiyarutvik18@gmail.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "publish": "build --linux -p never",
+    "pack": "build --dir",
+    "dist": "build",
+      "icon": "../assets/icon.ico"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-builder": "^20.38.4"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.0.1",
+    "electron-log": "^2.2.17",
+    "electron-updater": "^4.0.6",
+    "localtunnel": "^1.9.1",
+    "ps-tree": "^1.2.0",
+    "showdown": "^1.8.6",
+    "simple-peer": "^9.2.1",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "build": {
+    "appId": "com.jetsoanalin.codex-ide",
+    "mac": {
+      "category": "",
+      "target": [
+        "zip",
+        "dmg"
+      ],
+      "icon": "../assets/icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "../assets/icon.icns"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "../assets/icon.ico"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "jetsoanalin, Rutvikbk",
+        "repo": "codex-ide"
+      }
+    ]
+  }
+}
