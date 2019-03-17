@@ -109,6 +109,8 @@
 Clone the base repository onto your desktop with `git` as follows:
 ```console
 git clone git@github.com:jetsoanalin/codex-ide
+or
+git clone https://github.com/Jetsoanalin/codex-ide.git
 ```
 
 ### What Do you think the next step will be ??
