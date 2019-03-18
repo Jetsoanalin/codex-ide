@@ -139,4 +139,4 @@ $ electron . or npm start
 ------------------------------------------
 ### Licence
 
-Build under <a href="./LICENSE">MIT</a> Licence
+Build under <a href="./LICENSE">MIT</a> License
